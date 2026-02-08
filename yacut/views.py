@@ -1,6 +1,6 @@
-from flask import render_template, request, redirect, flash, url_for
+from flask import render_template, redirect, url_for
 from yacut import app, db
-from yacut.forms import URLForm, FileUploadForm
+from yacut.forms import URLForm
 from yacut.models import URLMap
 from yacut.utils import get_unique_short_id
 
